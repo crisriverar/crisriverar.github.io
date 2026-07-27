@@ -54,7 +54,13 @@ Este proyecto analiza el comportamiento de uso de **ConnectaTel**, una empresa d
 
 #### Herramientas y tipo de proyecto
 
-![Python](https://img.shields.io/badge/python-357ebd?style=for-the-badge&logo=python&logoColor=white)![Pandas](https://img.shields.io/badge/pandas-%23357ebd.svg?style=for-the-badge&logo=pandas&logoColor=white)![NumPy](https://img.shields.io/badge/NumPy-%23357ebd.svg?style=for-the-badge&logo=scipy&logoColor=white)![Limpieza de datos](https://img.shields.io/badge/Limpieza_de_datos-295F98?style=for-the-badge)![Detección de outliers](https://img.shields.io/badge/Detección_de_outliers-295F98?style=for-the-badge)![Segmentación](https://img.shields.io/badge/Segmentación_de_clientes-295F98?style=for-the-badge)![Análisis exploratorio](https://img.shields.io/badge/EDA-295F98?style=for-the-badge)
+![Python](https://img.shields.io/badge/Python-001C4D?style=for-the-badge&logo=python&logoColor=white)
+![Pandas](https://img.shields.io/badge/Pandas-001C4D?style=for-the-badge&logo=pandas&logoColor=white)
+![NumPy](https://img.shields.io/badge/NumPy-001C4D?style=for-the-badge&logo=numpy&logoColor=white)
+![Limpieza de datos](https://img.shields.io/badge/Limpieza_de_datos-001C4D?style=for-the-badge)
+![Detección de outliers](https://img.shields.io/badge/Detección_de_outliers-001C4D?style=for-the-badge)
+![Segmentación](https://img.shields.io/badge/Segmentación_de_clientes-001C4D?style=for-the-badge)
+![Análisis exploratorio](https://img.shields.io/badge/EDA-001C4D?style=for-the-badge)
 
 ### Preguntas clave
 
