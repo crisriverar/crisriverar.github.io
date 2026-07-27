@@ -11,7 +11,7 @@ Data Analyst Junior bilingüe con más de 6 años de experiencia en operaciones 
 - Manejo avanzado de **Excel | Google Sheets**
 - Diseño y análisis de **A/B Testing**
 
-[![LinkedIn](https://img.shields.io/badge/linkedin-%23295F98.svg?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/TU-USUARIO/) [![Outlook](https://img.shields.io/badge/Microsoft_Outlook-295F98?style=for-the-badge&logo=microsoft-outlook&logoColor=white)](mailto:tu_correo@outlook.com)
+[![LinkedIn](https://img.shields.io/badge/linkedin-%23295F98.svg?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/cristian-riverar) [![Hotmail](https://img.shields.io/badge/Microsoft_Outlook-295F98?style=for-the-badge&logo=microsoft-outlook&logoColor=white)](mailto:cristianrivera.r@hotmail.com)
 
 ---
 
