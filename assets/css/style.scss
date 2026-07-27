@@ -9,16 +9,16 @@
 ================================================== */
 
 :root{
-    --primary:#001C4D;
-    --primary-hover:#003380;
+  --primary:#001C4D;
+  --primary-hover:#003380;
 
-    --background:#F7F9FC;
-    --card:#FFFFFF;
+  --background:#F6F8FC;
+  --card:#FFFFFF;
 
-    --text:#374151;
-    --secondary:#6B7280;
+  --text:#374151;
+  --secondary:#6B7280;
 
-    --border:#E7ECF5;
+  --border:#E6ECF5;
 }
 
 /* ==================================================
@@ -26,45 +26,73 @@
 ================================================== */
 
 body{
-    font-family:'Inter',sans-serif;
-    background:var(--background);
-    color:var(--text);
-    font-size:15px;
-    line-height:1.65;
-    font-weight:400;
+  font-family:'Inter',sans-serif;
+  background:var(--background);
+  color:var(--text);
+  font-size:15px;
+  line-height:1.7;
+  font-weight:400;
 }
 
 ::selection{
-    background:#001C4D;
-    color:white;
+  background:var(--primary);
+  color:white;
+}
+
+*{
+  transition:.25s ease;
 }
 
 /* ==================================================
-   CONTENEDOR
+   LAYOUT
 ================================================== */
 
 .wrapper{
-    width:1100px;
-    margin:auto;
+  max-width:1150px;
+  width:95%;
+  margin:40px auto;
 }
 
-/* ==========================
+/* ==================================================
    SIDEBAR
-========================== */
+================================================== */
 
 header{
 
-    width:180px;
+  width:250px;
 
-    background:var(--card);
+  background:white;
 
-    padding:24px;
+  padding:28px;
 
-    border-radius:16px;
+  border-radius:18px;
 
-    border:1px solid var(--border);
+  border:1px solid var(--border);
 
-    box-shadow:0 8px 24px rgba(0,28,77,.06);
+  box-shadow:0 10px 30px rgba(0,28,77,.06);
+
+}
+
+/* ==================================================
+   FOTO
+================================================== */
+
+.profile-photo{
+
+  width:170px;
+  height:170px;
+
+  display:block;
+
+  margin:0 auto 20px;
+
+  border-radius:50%;
+
+  object-fit:cover;
+
+  border:4px solid white;
+
+  box-shadow:0 12px 30px rgba(0,28,77,.15);
 
 }
 
@@ -74,21 +102,23 @@ header{
 
 header h1{
 
-    font-size:30px;
+  text-align:center;
 
-    font-weight:700;
+  font-size:30px;
 
-    line-height:1.2;
+  font-weight:700;
 
-    margin-bottom:8px;
+  margin-bottom:10px;
+
+  line-height:1.2;
 
 }
 
 header h1 a{
 
-    color:var(--primary);
+  color:var(--primary);
 
-    text-decoration:none;
+  text-decoration:none;
 
 }
 
@@ -98,13 +128,13 @@ header h1 a{
 
 header p{
 
-    font-size:15px;
+  text-align:center;
 
-    color:var(--secondary);
+  color:var(--secondary);
 
-    line-height:1.6;
+  font-size:15px;
 
-    margin-bottom:18px;
+  margin-bottom:24px;
 
 }
 
@@ -114,122 +144,121 @@ header p{
 
 a{
 
-    color:var(--primary);
+  color:var(--primary);
 
-    text-decoration:none;
-
-    transition:.25s;
+  text-decoration:none;
 
 }
 
 a:hover{
 
-    color:var(--primary-hover);
+  color:var(--primary-hover);
 
 }
 
 /* ==================================================
-   BOTONES SIDEBAR
+   BOTONES
 ================================================== */
 
 header ul{
 
-    display:flex;
+  display:flex;
 
-    flex-direction:column;
+  flex-direction:column;
 
-    gap:10px;
+  gap:12px;
 
 }
 
 header ul li{
 
-    list-style:none;
+  list-style:none;
 
-    margin:0;
+  margin:0;
 
 }
 
 header ul a{
 
-    display:block;
+  display:block;
 
-    padding:10px 14px;
+  padding:11px 16px;
 
-    border-radius:10px;
+  border-radius:10px;
 
-    background:var(--primary);
+  background:var(--primary);
 
-    color:white !important;
+  color:white !important;
 
-    text-align:center;
+  font-size:14px;
 
-    font-size:14px;
+  font-weight:600;
 
-    font-weight:600;
+  text-align:center;
 
 }
 
 header ul a:hover{
 
-    background:var(--primary-hover);
+  background:var(--primary-hover);
 
-    transform:translateY(-2px);
+  transform:translateY(-2px);
+
+  box-shadow:0 8px 18px rgba(0,28,77,.12);
 
 }
 
-/* ==========================
+/* ==================================================
    CONTENIDO
-========================== */
+================================================== */
 
 section{
 
-    width:calc(100% - 180px);
+  margin-left:320px;
 
-    float:right;
+  background:white;
 
-    background:var(--card);
+  padding:34px;
 
-    padding:28px;
+  border-radius:18px;
 
-    border-radius:16px;
+  border:1px solid var(--border);
 
-    border:1px solid var(--border);
-
-    box-shadow:0 8px 24px rgba(0,28,77,.06);
+  box-shadow:0 10px 30px rgba(0,28,77,.06);
 
 }
+
 /* ==================================================
-   TÍTULOS
+   TITULOS
 ================================================== */
 
 h2{
 
-    color:var(--primary);
+  color:var(--primary);
 
-    font-size:22px;
+  font-size:22px;
 
-    font-weight:600;
+  font-weight:700;
 
-    margin-top:30px;
+  margin-top:32px;
 
-    margin-bottom:15px;
+  margin-bottom:16px;
 
-    border-bottom:2px solid var(--border);
+  border-bottom:2px solid var(--border);
 
-    padding-bottom:6px;
+  padding-bottom:8px;
 
 }
 
 /* ==================================================
-   PÁRRAFOS
+   TEXTO
 ================================================== */
 
 p{
 
-    font-size:15px;
+  line-height:1.8;
 
-    line-height:1.7;
+  margin-bottom:18px;
 
 }
 
@@ -239,9 +268,7 @@ p{
 
 li{
 
-    font-size:15px;
-
-    margin-bottom:8px;
+  margin-bottom:10px;
 
 }
 
@@ -249,11 +276,19 @@ li{
    BADGES
 ================================================== */
 
-img{
+p img{
 
-    margin:5px;
+  display:inline-block;
 
-    vertical-align:middle;
+  margin:5px 7px 5px 0;
+
+  transition:transform .2s ease;
+
+}
+
+p img:hover{
+
+  transform:translateY(-2px) scale(1.04);
 
 }
 
@@ -263,79 +298,77 @@ img{
 
 table{
 
-    border-radius:10px;
+  border-radius:10px;
 
-    overflow:hidden;
+  overflow:hidden;
 
 }
 
 /* ==================================================
-   VER PROYECTO COMPLETO
+   DIVISORES
+================================================== */
+
+section hr{
+
+  margin:42px 0;
+
+  border:none;
+
+  border-top:1px solid var(--border);
+
+}
+
+/* ==================================================
+   ENLACE DEL PROYECTO
 ================================================== */
 
 .project-link{
 
-    display:inline-flex;
+  display:inline-flex;
 
-    align-items:center;
+  align-items:center;
 
-    gap:8px;
+  gap:8px;
 
-    margin-top:18px;
+  margin-top:18px;
 
-    padding:10px 16px;
+  padding:10px 16px;
 
-    border:1px solid rgba(0,28,77,.12);
+  border-radius:10px;
 
-    border-radius:10px;
+  border:1px solid rgba(0,28,77,.10);
 
-    background:#F8FAFD;
+  background:#F8FAFD;
 
-    color:var(--primary) !important;
+  color:var(--primary) !important;
 
-    font-size:14px;
-
-    font-weight:600;
-
-    text-decoration:none;
+  font-weight:600;
 
 }
 
 .project-link::after{
 
-    content:"→";
+  content:"→";
 
-    font-size:16px;
-
-    transition:transform .25s ease;
+  transition:.25s;
 
 }
 
 .project-link:hover{
 
-    background:#EEF3FB;
+  background:#EEF3FB;
 
-    border-color:var(--primary);
+  border-color:var(--primary);
 
-    box-shadow:0 6px 16px rgba(0,28,77,.08);
+  transform:translateY(-2px);
 
-    transform:translateY(-2px);
+  box-shadow:0 8px 20px rgba(0,28,77,.08);
 
 }
 
 .project-link:hover::after{
 
-    transform:translateX(4px);
-
-}
-
-/* ==================================================
-   TRANSICIONES
-================================================== */
-
-*{
-
-    transition:all .25s ease;
+  transform:translateX(4px);
 
 }
 
@@ -345,121 +378,32 @@ table{
 
 @media (max-width:960px){
 
-    .wrapper{
+  .wrapper{
 
-        width:auto;
+      width:auto;
 
-        padding:20px;
+      padding:20px;
 
-    }
+      margin:20px auto;
 
-    header{
+  }
 
-        position:relative;
+  header{
 
-        width:auto;
+      position:relative;
 
-        margin-bottom:20px;
+      width:auto;
 
-    }
+      margin-bottom:20px;
 
-    section{
+  }
 
-        margin-left:0;
+  section{
 
-    }
+      margin-left:0;
 
-}
+      padding:26px;
 
-/* ==================================================
-   PROJECT SPACING
-================================================== */
-
-section hr{
-    margin:40px 0;
-    border:none;
-    border-top:1px solid var(--border);
-}
-
-/* ==================================================
-   BADGES
-================================================== */
-
-p img{
-
-    display:inline-block;
-
-    margin:5px 6px 5px 0;
-
-    transition:transform .2s ease,
-               filter .2s ease;
-
-}
-
-p img:hover{
-
-    transform:translateY(-2px) scale(1.04);
-
-    filter:brightness(1.05);
-
-}
-
-/* ==================================================
-   PROJECT LINK
-================================================== */
-
-.project-link{
-
-    display:inline-flex;
-
-    align-items:center;
-
-    gap:8px;
-
-    margin-top:18px;
-
-    padding:10px 16px;
-
-    border:1px solid rgba(0,28,77,.12);
-
-    border-radius:10px;
-
-    background:#F8FAFD;
-
-    color:var(--primary) !important;
-
-    font-size:14px;
-
-    font-weight:600;
-
-    text-decoration:none;
-
-}
-
-.project-link::after{
-
-    content:"→";
-
-    font-size:16px;
-
-    transition:transform .25s ease;
-
-}
-
-.project-link:hover{
-
-    background:#EEF3FB;
-
-    border-color:var(--primary);
-
-    box-shadow:0 6px 16px rgba(0,28,77,.08);
-
-    transform:translateY(-2px);
-
-}
-
-.project-link:hover::after{
-
-    transform:translateX(4px);
+  }
 
 }
