@@ -1,3 +1,4 @@
+
 ## Perfil profesional
 
 Data Analyst Junior bilingüe con más de 6 años de experiencia en operaciones y servicio al cliente en entornos internacionales. Experiencia en análisis, limpieza y visualización de datos utilizando Python (pandas, NumPy), SQL y Power BI. Experiencia en análisis de datos operativos, mejora de procesos y gestión de información. Capacidad para traducir requerimientos de negocio en soluciones analíticas, identificar tendencias y optimizar el rendimiento mediante el uso de datos.
