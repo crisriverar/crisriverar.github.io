@@ -7,10 +7,10 @@ Data Analyst Junior bilingüe con más de 6 años de experiencia en operaciones 
 
 - Análisis y manipulación de datos con **Python (pandas, NumPy)**
 - Consultas y gestión de bases de datos con **SQL (MySQL)**
-- Visualización de datos con **Tableau | Power BI | Matplotlib | Seaborn**
-- Manejo avanzado de **Excel | Google Sheets**
+- Visualización de datos con **Tableau, Power BI, Matplotlib y Seaborn**
+- Manejo avanzado de **Excel y Google Sheets**
 - Diseño y análisis de **A/B Testing**
-
+- 
 [![LinkedIn](https://img.shields.io/badge/linkedin-%23295F98.svg?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/cristian-riverar) [![Hotmail](https://img.shields.io/badge/Microsoft_Outlook-295F98?style=for-the-badge&logo=microsoft-outlook&logoColor=white)](mailto:cristianrivera.r@hotmail.com)
 
 ---
