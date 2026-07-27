@@ -4,212 +4,457 @@
 @import "jekyll-theme-minimal";
 @import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap');
 
-/* ==========================
+/* ==================================================
    VARIABLES
-========================== */
+================================================== */
 
 :root{
     --primary:#001C4D;
     --primary-hover:#003380;
+
     --background:#F7F9FC;
     --card:#FFFFFF;
-    --text:#2C2C2C;
+
+    --text:#374151;
     --secondary:#6B7280;
+
+    --border:#E7ECF5;
 }
 
-/* ==========================
+/* ==================================================
    GENERAL
-========================== */
+================================================== */
 
 body{
     font-family:'Inter',sans-serif;
     background:var(--background);
     color:var(--text);
     font-size:15px;
-    line-height:1.6;
+    line-height:1.65;
     font-weight:400;
 }
 
-/* ==========================
+::selection{
+    background:#001C4D;
+    color:white;
+}
+
+/* ==================================================
    CONTENEDOR
-========================== */
+================================================== */
 
 .wrapper{
     width:1100px;
     margin:auto;
 }
 
-/* ==========================
+/* ==================================================
    SIDEBAR
-========================== */
+================================================== */
 
 header{
+
     background:var(--card);
+
     padding:24px;
-    border-radius:18px;
-    box-shadow:0 10px 30px rgba(0,28,77,.08);
+
+    border-radius:16px;
+
+    border:1px solid var(--border);
+
+    box-shadow:0 8px 24px rgba(0,28,77,.06);
+
 }
 
-/* ==========================
+/* ==================================================
    NOMBRE
-========================== */
+================================================== */
 
 header h1{
+
     font-size:30px;
+
     font-weight:700;
-    margin-bottom:8px;
+
     line-height:1.2;
+
+    margin-bottom:8px;
+
 }
 
 header h1 a{
+
     color:var(--primary);
+
     text-decoration:none;
+
 }
 
-/* ==========================
+/* ==================================================
    DESCRIPCIÓN
-========================== */
+================================================== */
 
 header p{
+
     font-size:15px;
+
     color:var(--secondary);
+
     line-height:1.6;
+
     margin-bottom:18px;
+
 }
 
-/* ==========================
+/* ==================================================
    ENLACES
-========================== */
+================================================== */
 
 a{
+
     color:var(--primary);
+
     text-decoration:none;
+
     transition:.25s;
+
 }
 
 a:hover{
+
     color:var(--primary-hover);
+
 }
 
-/* ==========================
-   BOTONES
-========================== */
+/* ==================================================
+   BOTONES SIDEBAR
+================================================== */
 
 header ul{
+
     display:flex;
+
     flex-direction:column;
+
     gap:10px;
+
 }
 
 header ul li{
+
     list-style:none;
+
     margin:0;
+
 }
 
 header ul a{
+
     display:block;
+
     padding:10px 14px;
+
     border-radius:10px;
+
     background:var(--primary);
+
     color:white !important;
+
     text-align:center;
+
     font-size:14px;
+
     font-weight:600;
+
 }
 
 header ul a:hover{
+
     background:var(--primary-hover);
+
     transform:translateY(-2px);
+
 }
 
-/* ==========================
+/* ==================================================
    CONTENIDO
-========================== */
+================================================== */
 
 section{
+
     background:var(--card);
+
     padding:28px;
-    border-radius:18px;
-    box-shadow:0 10px 30px rgba(0,28,77,.08);
+
+    border-radius:16px;
+
+    border:1px solid var(--border);
+
+    box-shadow:0 8px 24px rgba(0,28,77,.06);
+
 }
 
-/* ==========================
+/* ==================================================
    TÍTULOS
-========================== */
+================================================== */
 
 h2{
+
     color:var(--primary);
+
     font-size:22px;
+
     font-weight:600;
+
     margin-top:30px;
+
     margin-bottom:15px;
-    border-bottom:2px solid #E7ECF5;
+
+    border-bottom:2px solid var(--border);
+
     padding-bottom:6px;
+
 }
 
-/* ==========================
+/* ==================================================
    PÁRRAFOS
-========================== */
+================================================== */
 
 p{
+
     font-size:15px;
+
     line-height:1.7;
+
 }
 
-/* ==========================
+/* ==================================================
    LISTAS
-========================== */
+================================================== */
 
 li{
+
     font-size:15px;
+
     margin-bottom:8px;
+
 }
 
-/* ==========================
-   IMÁGENES
-========================== */
+/* ==================================================
+   BADGES
+================================================== */
 
 img{
-    margin:4px;
+
+    margin:5px;
+
     vertical-align:middle;
+
 }
 
-/* ==========================
+/* ==================================================
    TABLAS
-========================== */
+================================================== */
 
 table{
+
     border-radius:10px;
+
     overflow:hidden;
+
 }
 
-/* ==========================
+/* ==================================================
+   VER PROYECTO COMPLETO
+================================================== */
+
+.project-link{
+
+    display:inline-flex;
+
+    align-items:center;
+
+    gap:8px;
+
+    margin-top:18px;
+
+    padding:10px 16px;
+
+    border:1px solid rgba(0,28,77,.12);
+
+    border-radius:10px;
+
+    background:#F8FAFD;
+
+    color:var(--primary) !important;
+
+    font-size:14px;
+
+    font-weight:600;
+
+    text-decoration:none;
+
+}
+
+.project-link::after{
+
+    content:"→";
+
+    font-size:16px;
+
+    transition:transform .25s ease;
+
+}
+
+.project-link:hover{
+
+    background:#EEF3FB;
+
+    border-color:var(--primary);
+
+    box-shadow:0 6px 16px rgba(0,28,77,.08);
+
+    transform:translateY(-2px);
+
+}
+
+.project-link:hover::after{
+
+    transform:translateX(4px);
+
+}
+
+/* ==================================================
    TRANSICIONES
-========================== */
+================================================== */
 
 *{
+
     transition:all .25s ease;
+
 }
 
-/* ==========================
+/* ==================================================
    RESPONSIVE
-========================== */
+================================================== */
 
 @media (max-width:960px){
 
     .wrapper{
+
         width:auto;
+
         padding:20px;
+
     }
 
     header{
+
         position:relative;
+
         width:auto;
+
         margin-bottom:20px;
+
     }
 
     section{
+
         margin-left:0;
+
     }
+
+}
+
+/* ==================================================
+   PROJECT SPACING
+================================================== */
+
+section hr{
+    margin:40px 0;
+    border:none;
+    border-top:1px solid var(--border);
+}
+
+/* ==================================================
+   BADGES
+================================================== */
+
+p img{
+
+    display:inline-block;
+
+    margin:5px 6px 5px 0;
+
+    transition:transform .2s ease,
+               filter .2s ease;
+
+}
+
+p img:hover{
+
+    transform:translateY(-2px) scale(1.04);
+
+    filter:brightness(1.05);
+
+}
+
+/* ==================================================
+   PROJECT LINK
+================================================== */
+
+.project-link{
+
+    display:inline-flex;
+
+    align-items:center;
+
+    gap:8px;
+
+    margin-top:18px;
+
+    padding:10px 16px;
+
+    border:1px solid rgba(0,28,77,.12);
+
+    border-radius:10px;
+
+    background:#F8FAFD;
+
+    color:var(--primary) !important;
+
+    font-size:14px;
+
+    font-weight:600;
+
+    text-decoration:none;
+
+}
+
+.project-link::after{
+
+    content:"→";
+
+    font-size:16px;
+
+    transition:transform .25s ease;
+
+}
+
+.project-link:hover{
+
+    background:#EEF3FB;
+
+    border-color:var(--primary);
+
+    box-shadow:0 6px 16px rgba(0,28,77,.08);
+
+    transform:translateY(-2px);
+
+}
+
+.project-link:hover::after{
+
+    transform:translateX(4px);
 
 }
