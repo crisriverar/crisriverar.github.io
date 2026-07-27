@@ -1,1 +1,22 @@
+---
+---
 
+@import "{{ site.theme }}";
+
+header h1 a {
+    color: #001C4D;
+}
+
+a {
+    color: #001C4D;
+}
+
+a:hover,
+header h1 a:hover {
+    color: #003380;
+}
+
+header ul a,
+header ul a strong {
+    color: #001C4D;
+}
