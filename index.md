@@ -10,6 +10,8 @@ Data Analyst Junior bilingüe con más de 6 años de experiencia en operaciones 
 - Visualización de datos con **Tableau, Power BI, Matplotlib y Seaborn**
 - Manejo avanzado de **Excel y Google Sheets**
 - Diseño y análisis de **A/B Testing**
+
+### Datos de contacto
   
 [![LinkedIn](https://img.shields.io/badge/LinkedIn-001C4D?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/cristian-riverar)
 [![Outlook](https://img.shields.io/badge/Microsoft_Outlook-001C4D?style=for-the-badge&logo=microsoft-outlook&logoColor=white)](mailto:cristianrivera.r@hotmail.com)
