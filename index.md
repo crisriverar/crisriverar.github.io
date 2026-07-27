@@ -11,7 +11,8 @@ Data Analyst Junior bilingüe con más de 6 años de experiencia en operaciones 
 - Manejo avanzado de **Excel y Google Sheets**
 - Diseño y análisis de **A/B Testing**
   
-[![LinkedIn](https://img.shields.io/badge/linkedin-%23295F98.svg?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/cristian-riverar) [![Hotmail](https://img.shields.io/badge/Microsoft_Outlook-295F98?style=for-the-badge&logo=microsoft-outlook&logoColor=white)](mailto:cristianrivera.r@hotmail.com)
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-001C4D?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/cristian-riverar)
+[![Outlook](https://img.shields.io/badge/Microsoft_Outlook-001C4D?style=for-the-badge&logo=microsoft-outlook&logoColor=white)](mailto:cristianrivera.r@hotmail.com)
 
 ---
 
@@ -23,7 +24,15 @@ Este proyecto evalúa **RappiPlus**, un servicio de suscripción dentro del ecos
 
 #### Herramientas y tipo de proyecto
 
-![Python](https://img.shields.io/badge/python-357ebd?style=for-the-badge&logo=python&logoColor=white)![Pandas](https://img.shields.io/badge/pandas-%23357ebd.svg?style=for-the-badge&logo=pandas&logoColor=white)![SQL](https://img.shields.io/badge/SQL-357ebd?style=for-the-badge&logo=mysql&logoColor=white)![Matplotlib](https://img.shields.io/badge/Matplotlib-%23357ebd.svg?style=for-the-badge&logo=Matplotlib&logoColor=black)![Seaborn](https://img.shields.io/badge/Seaborn-357ebd?style=for-the-badge)![Análisis de cohortes](https://img.shields.io/badge/Análisis_de_cohortes-295F98?style=for-the-badge)![Tests A/B](https://img.shields.io/badge/Tests_A/B-295F98?style=for-the-badge)![Análisis de funnel](https://img.shields.io/badge/Análisis_de_funnel-295F98?style=for-the-badge)![Power BI](https://img.shields.io/badge/Power_BI-295F98?style=for-the-badge&logo=powerbi&logoColor=white)
+![Python](https://img.shields.io/badge/Python-001C4D?style=for-the-badge&logo=python&logoColor=white)
+![Pandas](https://img.shields.io/badge/Pandas-001C4D?style=for-the-badge&logo=pandas&logoColor=white)
+![SQL](https://img.shields.io/badge/SQL-001C4D?style=for-the-badge&logo=mysql&logoColor=white)
+![Matplotlib](https://img.shields.io/badge/Matplotlib-001C4D?style=for-the-badge&logo=matplotlib&logoColor=white)
+![Seaborn](https://img.shields.io/badge/Seaborn-001C4D?style=for-the-badge)
+![Análisis de cohortes](https://img.shields.io/badge/Análisis_de_cohortes-001C4D?style=for-the-badge)
+![Tests A/B](https://img.shields.io/badge/Tests_A%2FB-001C4D?style=for-the-badge)
+![Análisis de funnel](https://img.shields.io/badge/Análisis_de_funnel-001C4D?style=for-the-badge)
+![Power BI](https://img.shields.io/badge/Power_BI-001C4D?style=for-the-badge&logo=powerbi&logoColor=white)
 
 ### Preguntas clave
 
