@@ -57,7 +57,7 @@ Este proyecto evalúa **RappiPlus**, un servicio de suscripción dentro del ecos
 - La versión B del checkout mostró una conversión 0.60% mayor, pero sin significancia estadística (p = 0.42); se recomienda extender el test antes de escalar el cambio.
 - Con un margen neto de 11.51%, se recomienda redirigir inversión de marketing hacia los canales con mejor retorno relativo.
 
-**Explora más detalles del proyecto en el [repositorio completo](https://github.com/crisriverar/Analisys-RappiPlus-).**
+**Ver proyecto completo [repositorio completo](https://github.com/crisriverar/Analisys-RappiPlus-).**
 
 ## Análisis de datos de telecomunicaciones para ConnectaTel
 
@@ -94,7 +94,7 @@ Este proyecto analiza el comportamiento de uso de **ConnectaTel**, una empresa d
 - Se identificó un grupo de usuarios con consumo significativamente superior al promedio, con potencial para planes premium o categorías VIP.
 - Se recomienda priorizar estrategias de upselling sobre adultos y adultos mayores para mejorar el ingreso promedio por usuario (ARPU).
 
-**Explora más detalles del proyecto en el [repositorio completo](https://github.com/crisriverar/ConnectaTel).**
+**Ver proyecto completo [repositorio completo](https://github.com/crisriverar/ConnectaTel).**
 
 ---
 
