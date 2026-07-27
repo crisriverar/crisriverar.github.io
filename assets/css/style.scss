@@ -2,26 +2,19 @@
 ---
 
 @import "jekyll-theme-minimal";
-
-/* ==========================
-   Google Font
-========================== */
-
 @import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap');
 
-:root{
+/* ==========================
+   VARIABLES
+========================== */
 
+:root{
     --primary:#001C4D;
     --primary-hover:#003380;
-
     --background:#F7F9FC;
-
     --card:#FFFFFF;
-
     --text:#2C2C2C;
-
     --secondary:#6B7280;
-
 }
 
 /* ==========================
@@ -29,29 +22,21 @@
 ========================== */
 
 body{
-
     font-family:'Inter',sans-serif;
-
     background:var(--background);
-
     color:var(--text);
-
-    line-height:1.7;
-
-    font-size:16px;
-
+    font-size:15px;
+    line-height:1.6;
+    font-weight:400;
 }
 
 /* ==========================
-   WRAPPER
+   CONTENEDOR
 ========================== */
 
 .wrapper{
-
-    width:1120px;
-
+    width:1100px;
     margin:auto;
-
 }
 
 /* ==========================
@@ -59,37 +44,26 @@ body{
 ========================== */
 
 header{
-
-    background:white;
-
-    padding:30px;
-
+    background:var(--card);
+    padding:24px;
     border-radius:18px;
-
-    box-shadow:0 12px 40px rgba(0,28,77,.08);
-
+    box-shadow:0 10px 30px rgba(0,28,77,.08);
 }
 
 /* ==========================
-   TITULO
+   NOMBRE
 ========================== */
 
 header h1{
-
-    font-size:38px;
-
-    margin-bottom:10px;
-
+    font-size:30px;
     font-weight:700;
-
+    margin-bottom:8px;
+    line-height:1.2;
 }
 
 header h1 a{
-
     color:var(--primary);
-
     text-decoration:none;
-
 }
 
 /* ==========================
@@ -97,27 +71,24 @@ header h1 a{
 ========================== */
 
 header p{
-
+    font-size:15px;
     color:var(--secondary);
-
+    line-height:1.6;
+    margin-bottom:18px;
 }
 
 /* ==========================
-   LINKS
+   ENLACES
 ========================== */
 
 a{
-
     color:var(--primary);
-
+    text-decoration:none;
     transition:.25s;
-
 }
 
 a:hover{
-
     color:var(--primary-hover);
-
 }
 
 /* ==========================
@@ -125,47 +96,30 @@ a:hover{
 ========================== */
 
 header ul{
-
     display:flex;
-
     flex-direction:column;
-
-    gap:12px;
-
+    gap:10px;
 }
 
 header ul li{
-
     list-style:none;
-
+    margin:0;
 }
 
 header ul a{
-
     display:block;
-
-    padding:12px;
-
-    text-align:center;
-
+    padding:10px 14px;
     border-radius:10px;
-
     background:var(--primary);
-
     color:white !important;
-
-    text-decoration:none;
-
+    text-align:center;
+    font-size:14px;
     font-weight:600;
-
 }
 
 header ul a:hover{
-
     background:var(--primary-hover);
-
     transform:translateY(-2px);
-
 }
 
 /* ==========================
@@ -173,45 +127,33 @@ header ul a:hover{
 ========================== */
 
 section{
-
-    background:white;
-
-    padding:35px;
-
+    background:var(--card);
+    padding:28px;
     border-radius:18px;
-
-    box-shadow:0 12px 40px rgba(0,28,77,.08);
-
+    box-shadow:0 10px 30px rgba(0,28,77,.08);
 }
 
 /* ==========================
-   TITULOS
+   TÍTULOS
 ========================== */
 
 h2{
-
     color:var(--primary);
-
-    font-size:30px;
-
-    margin-top:35px;
-
+    font-size:22px;
+    font-weight:600;
+    margin-top:30px;
     margin-bottom:15px;
-
-    border-bottom:2px solid #E8EDF6;
-
-    padding-bottom:8px;
-
+    border-bottom:2px solid #E7ECF5;
+    padding-bottom:6px;
 }
 
 /* ==========================
-   BADGES
+   PÁRRAFOS
 ========================== */
 
-img{
-
-    margin:4px;
-
+p{
+    font-size:15px;
+    line-height:1.7;
 }
 
 /* ==========================
@@ -219,9 +161,17 @@ img{
 ========================== */
 
 li{
+    font-size:15px;
+    margin-bottom:8px;
+}
 
-    margin-bottom:10px;
+/* ==========================
+   IMÁGENES
+========================== */
 
+img{
+    margin:4px;
+    vertical-align:middle;
 }
 
 /* ==========================
@@ -229,11 +179,16 @@ li{
 ========================== */
 
 table{
-
     border-radius:10px;
-
     overflow:hidden;
+}
 
+/* ==========================
+   TRANSICIONES
+========================== */
+
+*{
+    transition:all .25s ease;
 }
 
 /* ==========================
@@ -242,28 +197,19 @@ table{
 
 @media (max-width:960px){
 
-.wrapper{
+    .wrapper{
+        width:auto;
+        padding:20px;
+    }
 
-width:auto;
+    header{
+        position:relative;
+        width:auto;
+        margin-bottom:20px;
+    }
 
-padding:20px;
-
-}
-
-header{
-
-position:relative;
-
-width:auto;
-
-}
-
-section{
-
-margin-left:0;
-
-margin-top:25px;
-
-}
+    section{
+        margin-left:0;
+    }
 
 }
