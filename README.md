@@ -133,8 +133,3 @@ Este proyecto analiza el comportamiento de uso de **ConnectaTel**, una empresa d
 - El bajo uso registrado en el segmento joven podría estar subestimado, ya que el análisis no incluye consumo de datos móviles, canal probablemente dominante en ese grupo.
 
 **Ver proyecto completo [repositorio completo](https://github.com/crisriverar/ConnectaTel).**
-
----
-
-Hosted on GitHub Pages
-
