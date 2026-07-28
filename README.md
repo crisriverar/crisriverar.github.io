@@ -49,6 +49,10 @@ Este proyecto evalúa **RappiPlus**, un servicio de suscripción dentro del ecos
 - **Retención por cohortes:** Evaluación de si los usuarios regresan tras el registro.
 - **Test A/B:** Comparación estadística de dos versiones del checkout (prueba de hipótesis, valor p).
 
+### Dashboard de resultados
+
+<img width="1277" height="605" alt="image" src="https://github.com/user-attachments/assets/a5eb5395-88d2-4bfa-8873-3c5ff8865cf6" />
+
 ### Conclusiones y recomendaciones
 
 - El 83% de la ganancia total proviene de la categoría Electrónica, concentrada en un solo producto (Laptop Gaming 16GB), lo que representa un riesgo de dependencia. Se recomienda diversificar el catálogo promocionado.
@@ -84,6 +88,10 @@ En el comercio electrónico, entender qué factores del comportamiento del clien
 - **Análisis exploratorio (EDA):** Se analizaron las distribuciones de las variables y se identificaron patrones iniciales de comportamiento entre los clientes.
 - **Análisis correlacional:** Se integraron múltiples técnicas de correlación (heatmaps y scatterplots para pares clave) para identificar relaciones significativas entre variables y detectar posibles correlaciones engañosas.
 - **Documentación de hallazgos:** Se documentaron los supuestos y limitaciones del análisis, y se tradujeron los hallazgos en recomendaciones de negocio.
+
+### Heatmap de relaciones
+
+<img width="800" height="599" alt="image" src="https://github.com/user-attachments/assets/a96f556e-ee4f-48e8-8353-ace303bc9840" />
 
 ### Conclusiones y recomendaciones
 
