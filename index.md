@@ -102,6 +102,8 @@ En el comercio electrónico, entender qué factores del comportamiento del clien
 - Impulsar la adquisición de tráfico: Diseñar campañas de adquisición orientadas a incrementar las visitas mensuales, dado su vínculo con el ingreso anual.
 - Profundizar la segmentación: Probar segmentaciones adicionales del dataset y diseñar experimentos controlados que permitan validar si estas asociaciones reflejan relaciones causales reales sobre el ingreso anual.
 
+**Ver proyecto completo [repositorio completo](https://github.com/crisriverar/NovaRetail).**
+
 ## Análisis de datos de telecomunicaciones para ConnectaTel
 
 Este proyecto analiza el comportamiento de uso de **ConnectaTel**, una empresa de telecomunicaciones con operaciones en México y Colombia, integrando tres fuentes de datos distintas para construir un perfil estadístico del uso del servicio (llamadas y mensajes) por cliente y por segmento demográfico. El objetivo es **detectar oportunidades comerciales** a partir de patrones de consumo y comportamiento atípico.
