@@ -41,7 +41,6 @@ Este proyecto evalúa **RappiPlus**, un servicio de suscripción dentro del ecos
 1. ¿Qué categorías de producto concentran la mayor parte de la ganancia?
 2. ¿En qué etapa del funnel se pierden más usuarios?
 3. ¿El cambio en el diseño del checkout mejora la conversión de forma significativa?
-4. ¿Cuál es la eficiencia del gasto en marketing por canal?
 
 ### Metodología
 
@@ -55,7 +54,6 @@ Este proyecto evalúa **RappiPlus**, un servicio de suscripción dentro del ecos
 - El 83% de la ganancia total proviene de la categoría Electrónica, concentrada en un solo producto (Laptop Gaming 16GB), lo que representa un riesgo de dependencia. Se recomienda diversificar el catálogo promocionado.
 - La mayor caída del funnel (13.29%) ocurre entre "begin checkout" y "add payment info", señal de fricción en el proceso de pago más que falta de interés del usuario.
 - La versión B del checkout mostró una conversión 0.60% mayor, pero sin significancia estadística (p = 0.42); se recomienda extender el test antes de escalar el cambio.
-- Con un margen neto de 11.51%, se recomienda redirigir inversión de marketing hacia los canales con mejor retorno relativo.
 
 **Ver proyecto completo [repositorio completo](https://github.com/crisriverar/Analisys-RappiPlus-).**
 
@@ -93,14 +91,11 @@ En el comercio electrónico, entender qué factores del comportamiento del clien
 
 - El gasto en publicidad dirigida y las compras mensuales muestran una correlación positiva moderada (r=0,57): ambas variables tienden a incrementarse de manera conjunta, aunque no es posible afirmar causalidad directa.
 - Las visitas mensuales se relacionan de forma positiva moderada tanto con las compras mensuales (r=0,35) como con el ingreso anual (r=0,33), lo que sugiere que un mayor tráfico en la plataforma podría influir en el revenue generado.
-- El análisis es de naturaleza correlacional y no causal; existen variables no controladas (campañas, antigüedad del cliente, promociones) que también podrían estar interviniendo en estas relaciones.
 
 **Estrategias recomendadas:**
 
 - Validar publicidad dirigida en entorno controlado: Explorar un incremento en el gasto de publicidad dirigida mediante pruebas A/B o campañas piloto antes de escalar la inversión.
 - Reducir fricción en el proceso de compra: Priorizar optimizaciones de navegación y mejoras de UX que faciliten la conversión del tráfico en compras.
-- Impulsar la adquisición de tráfico: Diseñar campañas de adquisición orientadas a incrementar las visitas mensuales, dado su vínculo con el ingreso anual.
-- Profundizar la segmentación: Probar segmentaciones adicionales del dataset y diseñar experimentos controlados que permitan validar si estas asociaciones reflejan relaciones causales reales sobre el ingreso anual.
 
 **Ver proyecto completo [repositorio completo](https://github.com/crisriverar/NovaRetail).**
 
@@ -136,8 +131,6 @@ Este proyecto analiza el comportamiento de uso de **ConnectaTel**, una empresa d
 - El segmento de adultos concentra el mayor nivel de uso del servicio, siendo un cliente potencial clave para campañas de migración a planes premium.
 - El segmento de adultos mayores, aunque más pequeño, muestra mayor estabilidad económica y es candidato a estrategias de fidelización.
 - El bajo uso registrado en el segmento joven podría estar subestimado, ya que el análisis no incluye consumo de datos móviles, canal probablemente dominante en ese grupo.
-- Se identificó un grupo de usuarios con consumo significativamente superior al promedio, con potencial para planes premium o categorías VIP.
-- Se recomienda priorizar estrategias de upselling sobre adultos y adultos mayores para mejorar el ingreso promedio por usuario (ARPU).
 
 **Ver proyecto completo [repositorio completo](https://github.com/crisriverar/ConnectaTel).**
 
