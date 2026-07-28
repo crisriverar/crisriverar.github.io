@@ -1,6 +1,3 @@
-title: Cristian Rivera
-description: ¡Hola! Te doy la bienvenida a mi portafolio de proyectos de Análisis de Datos.
+title: Cristian Rivera | Data Analyst Portfolio
+description: Data Analyst specializing in Power BI, SQL, Excel and Python. Explore projects focused on business intelligence, data visualization and analytics.
 theme: jekyll-theme-minimal
-
-plugins:
-  - jekyll-remote-theme
