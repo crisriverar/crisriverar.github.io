@@ -59,7 +59,7 @@ Este proyecto evalúa **RappiPlus**, un servicio de suscripción dentro del ecos
 - La mayor caída del funnel (13.29%) ocurre entre "begin checkout" y "add payment info", señal de fricción en el proceso de pago más que falta de interés del usuario.
 - La versión B del checkout mostró una conversión 0.60% mayor, pero sin significancia estadística (p = 0.42); se recomienda extender el test antes de escalar el cambio.
 
-**Ver proyecto completo [repositorio completo](https://github.com/crisriverar/Analisis-RappiPlus).**
+**[Ver repositorio completo](https://github.com/crisriverar/Analisis-RappiPlus).**
 
 ## Análisis correlacional de comportamiento de clientes para NovaRetail+
 
@@ -105,7 +105,7 @@ En el comercio electrónico, entender qué factores del comportamiento del clien
 - Validar publicidad dirigida en entorno controlado: Explorar un incremento en el gasto de publicidad dirigida mediante pruebas A/B o campañas piloto antes de escalar la inversión.
 - Reducir fricción en el proceso de compra: Priorizar optimizaciones de navegación y mejoras de UX que faciliten la conversión del tráfico en compras.
 
-**Ver proyecto completo [repositorio completo](https://github.com/crisriverar/NovaRetail).**
+**[Ver repositorio completo](https://github.com/crisriverar/NovaRetail).**
 
 ## Análisis de datos de telecomunicaciones para ConnectaTel
 
@@ -140,4 +140,4 @@ Este proyecto analiza el comportamiento de uso de **ConnectaTel**, una empresa d
 - El segmento de adultos mayores, aunque más pequeño, muestra mayor estabilidad económica y es candidato a estrategias de fidelización.
 - El bajo uso registrado en el segmento joven podría estar subestimado, ya que el análisis no incluye consumo de datos móviles, canal probablemente dominante en ese grupo.
 
-**Ver proyecto completo [repositorio completo](https://github.com/crisriverar/ConnectaTel).**
+**[Ver repositorio completo](https://github.com/crisriverar/ConnectaTel).**
