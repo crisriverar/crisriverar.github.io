@@ -59,7 +59,7 @@ Este proyecto evalúa **RappiPlus**, un servicio de suscripción dentro del ecos
 - La mayor caída del funnel (13.29%) ocurre entre "begin checkout" y "add payment info", señal de fricción en el proceso de pago más que falta de interés del usuario.
 - La versión B del checkout mostró una conversión 0.60% mayor, pero sin significancia estadística (p = 0.42); se recomienda extender el test antes de escalar el cambio.
 
-**Ver proyecto completo [repositorio completo](https://github.com/crisriverar/Analisys-RappiPlus-).**
+**Ver proyecto completo [repositorio completo](https://github.com/crisriverar/Analisis-RappiPlus).**
 
 ## Análisis correlacional de comportamiento de clientes para NovaRetail+
 
