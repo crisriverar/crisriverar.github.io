@@ -1,0 +1,6 @@
+title: Cristian Rivera
+description: ¡Hola! Te doy la bienvenida a mi portafolio de proyectos de Análisis de Datos.
+theme: jekyll-theme-minimal
+
+plugins:
+  - jekyll-remote-theme
