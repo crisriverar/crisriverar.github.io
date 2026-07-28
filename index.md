@@ -59,6 +59,49 @@ Este proyecto evalúa **RappiPlus**, un servicio de suscripción dentro del ecos
 
 **Ver proyecto completo [repositorio completo](https://github.com/crisriverar/Analisys-RappiPlus-).**
 
+## Análisis correlacional de comportamiento de clientes para NovaRetail+
+
+En el comercio electrónico, entender qué factores del comportamiento del cliente están asociados con el ingreso generado es clave para diseñar estrategias de crecimiento sostenibles y optimizar la inversión en adquisición y retención. Identificar estas relaciones permite a NovaRetail+, plataforma de comercio electrónico en Latinoamérica con millones de usuarios, anticiparse a oportunidades de negocio y dirigir recursos de forma más eficiente de cara al cierre del año 2024.
+
+#### Herramientas y tipo de proyecto
+
+![Jupyter Notebook](https://img.shields.io/badge/Jupyter_Notebook-001C4D?style=for-the-badge&logo=jupyter&logoColor=white)
+![Python](https://img.shields.io/badge/Python-001C4D?style=for-the-badge&logo=python&logoColor=white)
+![Pandas](https://img.shields.io/badge/Pandas-001C4D?style=for-the-badge&logo=pandas&logoColor=white)
+![NumPy](https://img.shields.io/badge/NumPy-001C4D?style=for-the-badge&logo=numpy&logoColor=white)
+![Seaborn](https://img.shields.io/badge/Seaborn-001C4D?style=for-the-badge)
+![Matplotlib](https://img.shields.io/badge/Matplotlib-001C4D?style=for-the-badge)
+![Análisis correlacional](https://img.shields.io/badge/Análisis_Correlacional-001C4D?style=for-the-badge)
+![EDA](https://img.shields.io/badge/EDA-001C4D?style=for-the-badge)
+
+### Preguntas clave
+
+1. ¿Qué factores del comportamiento del cliente están más fuertemente asociados con el ingreso anual generado?
+2. ¿Existe una relación entre la inversión en publicidad dirigida y las compras mensuales?
+3. ¿El tráfico en la plataforma (visitas mensuales) influye en las compras y en el ingreso generado?
+
+### Metodología
+
+-**Preprocesamiento de datos:** Se trabajó sobre el dataset novaretail_comportamiento_clientes_2024.csv, con información de comportamiento de clientes (gasto en publicidad dirigida, compras mensuales, visitas mensuales, ingreso anual, entre otras variables), compuesto por 15,000 filas.
+-**Análisis exploratorio (EDA):** Se analizaron las distribuciones de las variables y se identificaron patrones iniciales de comportamiento entre los clientes.
+-**Análisis correlacional:** Se integraron múltiples técnicas de correlación (heatmaps y scatterplots para pares clave) para identificar relaciones significativas entre variables y detectar posibles correlaciones engañosas.
+-**Documentación de hallazgos:** Se documentaron los supuestos y limitaciones del análisis, y se tradujeron los hallazgos en recomendaciones de negocio.
+
+### Conclusiones y recomendaciones
+
+**Relaciones identificadas:**
+
+- El gasto en publicidad dirigida y las compras mensuales muestran una correlación positiva moderada (r=0,57): ambas variables tienden a incrementarse de manera conjunta, aunque no es posible afirmar causalidad directa.
+- Las visitas mensuales se relacionan de forma positiva moderada tanto con las compras mensuales (r=0,35) como con el ingreso anual (r=0,33), lo que sugiere que un mayor tráfico en la plataforma podría influir en el revenue generado.
+- El análisis es de naturaleza correlacional y no causal; existen variables no controladas (campañas, antigüedad del cliente, promociones) que también podrían estar interviniendo en estas relaciones.
+
+**Estrategias recomendadas:**
+
+- Validar publicidad dirigida en entorno controlado: Explorar un incremento en el gasto de publicidad dirigida mediante pruebas A/B o campañas piloto antes de escalar la inversión.
+- Reducir fricción en el proceso de compra: Priorizar optimizaciones de navegación y mejoras de UX que faciliten la conversión del tráfico en compras.
+- Impulsar la adquisición de tráfico: Diseñar campañas de adquisición orientadas a incrementar las visitas mensuales, dado su vínculo con el ingreso anual.
+- Profundizar la segmentación: Probar segmentaciones adicionales del dataset y diseñar experimentos controlados que permitan validar si estas asociaciones reflejan relaciones causales reales sobre el ingreso anual.
+
 ## Análisis de datos de telecomunicaciones para ConnectaTel
 
 Este proyecto analiza el comportamiento de uso de **ConnectaTel**, una empresa de telecomunicaciones con operaciones en México y Colombia, integrando tres fuentes de datos distintas para construir un perfil estadístico del uso del servicio (llamadas y mensajes) por cliente y por segmento demográfico. El objetivo es **detectar oportunidades comerciales** a partir de patrones de consumo y comportamiento atípico.
