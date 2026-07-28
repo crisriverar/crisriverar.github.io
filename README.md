@@ -51,7 +51,7 @@ Este proyecto evalúa **RappiPlus**, un servicio de suscripción dentro del ecos
 
 ### Dashboard de resultados
 
-<img width="1077" height="205" alt="image" src="https://github.com/user-attachments/assets/a5eb5395-88d2-4bfa-8873-3c5ff8865cf6" />
+<img width="1077" height="285" alt="image" src="https://github.com/user-attachments/assets/a5eb5395-88d2-4bfa-8873-3c5ff8865cf6" />
 
 ### Conclusiones y recomendaciones
 
