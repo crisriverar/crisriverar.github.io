@@ -82,10 +82,10 @@ En el comercio electrónico, entender qué factores del comportamiento del clien
 
 ### Metodología
 
--**Preprocesamiento de datos:** Se trabajó sobre el dataset novaretail_comportamiento_clientes_2024.csv, con información de comportamiento de clientes (gasto en publicidad dirigida, compras mensuales, visitas mensuales, ingreso anual, entre otras variables), compuesto por 15,000 filas.
--**Análisis exploratorio (EDA):** Se analizaron las distribuciones de las variables y se identificaron patrones iniciales de comportamiento entre los clientes.
--**Análisis correlacional:** Se integraron múltiples técnicas de correlación (heatmaps y scatterplots para pares clave) para identificar relaciones significativas entre variables y detectar posibles correlaciones engañosas.
--**Documentación de hallazgos:** Se documentaron los supuestos y limitaciones del análisis, y se tradujeron los hallazgos en recomendaciones de negocio.
+- **Preprocesamiento de datos:** Se trabajó sobre el dataset novaretail_comportamiento_clientes_2024.csv, con información de comportamiento de clientes (gasto en publicidad dirigida, compras mensuales, visitas mensuales, ingreso anual, entre otras variables), compuesto por 15,000 filas.
+- **Análisis exploratorio (EDA):** Se analizaron las distribuciones de las variables y se identificaron patrones iniciales de comportamiento entre los clientes.
+- **Análisis correlacional:** Se integraron múltiples técnicas de correlación (heatmaps y scatterplots para pares clave) para identificar relaciones significativas entre variables y detectar posibles correlaciones engañosas.
+- **Documentación de hallazgos:** Se documentaron los supuestos y limitaciones del análisis, y se tradujeron los hallazgos en recomendaciones de negocio.
 
 ### Conclusiones y recomendaciones
 
