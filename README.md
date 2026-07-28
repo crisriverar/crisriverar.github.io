@@ -51,7 +51,7 @@ Este proyecto evalúa **RappiPlus**, un servicio de suscripción dentro del ecos
 
 ### Dashboard de resultados
 
-<img width="1277" height="305" alt="image" src="https://github.com/user-attachments/assets/a5eb5395-88d2-4bfa-8873-3c5ff8865cf6" />
+<img width="1077" height="205" alt="image" src="https://github.com/user-attachments/assets/a5eb5395-88d2-4bfa-8873-3c5ff8865cf6" />
 
 ### Conclusiones y recomendaciones
 
@@ -91,7 +91,7 @@ En el comercio electrónico, entender qué factores del comportamiento del clien
 
 ### Heatmap de relaciones
 
-<img width="800" height="499" alt="image" src="https://github.com/user-attachments/assets/a96f556e-ee4f-48e8-8353-ace303bc9840" />
+<img width="800" height="399" alt="image" src="https://github.com/user-attachments/assets/a96f556e-ee4f-48e8-8353-ace303bc9840" />
 
 ### Conclusiones y recomendaciones
 
